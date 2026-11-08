@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-nexel-dark: #1E201E;
+  --color-nexel-gray: #3C3D37;
+  --color-nexel-sage: #697565;
+  --color-nexel-cream: #ECDFCC;
+
+  --font-outfit: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #1E201E;
+  color: #ECDFCC;
+  font-family: var(--font-outfit);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+::selection {
+  background-color: #697565;
+  color: #ECDFCC;
+}
+
+::-moz-selection {
+  background-color: #697565;
+  color: #ECDFCC;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1E201E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #697565;
+  border: 2px solid #1E201E;
+  border-radius: 999px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #697565 #1E201E;
+}
