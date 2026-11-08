@@ -199,7 +199,7 @@ This document intentionally omits exploit-relevant operational details, credenti
 
 ## 9. Security Posture (High Level)
 
-Nexel v1.0.0 includes foundational access controls:
+Nexel v2.0.0 includes foundational access controls:
 
 - Authenticated routes protected by token verification
 - Administrative actions restricted to authorized operators
@@ -301,7 +301,7 @@ Unsolicited pull requests or contributions should not be assumed accepted unless
 | --- | --- |
 | Document | Project README |
 | Product | Nexel |
-| Version covered | v1.0.0 |
+| Version covered | v2.0.0 |
 | Language | English |
 | Classification | Public project overview |
 | Owner | Hadi Karimi |
