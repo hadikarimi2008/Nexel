@@ -301,7 +301,7 @@ Unsolicited pull requests or contributions should not be assumed accepted unless
 | --- | --- |
 | Document | Project README |
 | Product | Nexel |
-| Version covered | v1.0.0 |
+| Version covered | v2.0.0 |
 | Language | English |
 | Classification | Public project overview |
 | Owner | Hadi Karimi |
