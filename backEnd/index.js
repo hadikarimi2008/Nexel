@@ -6,6 +6,7 @@ const path = require("path");
 
 const UserRouter = require("./router/UsersRouter");
 const ProductsRouter = require("./router/ProductsRouter");
+const CartRouter = require("./router/CartRouter")
 
 const app = express();
 
@@ -19,6 +20,7 @@ app.use(
 
 app.use("/api/users", UserRouter);
 app.use("/api/products", ProductsRouter)
+app.use("/api/cart", CartRouter)
 
 const port = process.env.App_Port || 4000;
 

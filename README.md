@@ -1,6 +1,6 @@
 # Nexel
 
-**Version:** v1.0.0  
+**Version:** v2.0.0  
 **Status:** Active development  
 **Owner:** Hadi Karimi  
 **GitHub Account:** [hadikarimi2008](https://github.com/hadikarimi2008)
@@ -13,7 +13,7 @@ Nexel is a full-stack web application for discovering and browsing technology pr
 
 The product experience is designed around clarity, organized product information, and a consistent visual identity. Public visitors may browse the catalog. Registered users may manage their profiles. Authorized administrators may manage catalog content and user records through protected interfaces.
 
-This release, **v1.0.0**, represents the first formal milestone of the project. The codebase remains under active development, and subsequent versions are expected to refine architecture, security posture, user experience, and operational readiness.
+This release, **v1.1.0**, represents the first formal milestone of the project. The codebase remains under active development, and subsequent versions are expected to refine architecture, security posture, user experience, and operational readiness.
 
 ---
 
@@ -34,7 +34,7 @@ Unauthorized reproduction, redistribution, commercial use, or misrepresentation 
 
 ## 3. Version and Development Status
 
-- **Current version:** `v1.0.0`
+- **Current version:** `v1.1.0`
 - **Release classification:** Initial production-oriented milestone
 - **Development state:** Ongoing
 
