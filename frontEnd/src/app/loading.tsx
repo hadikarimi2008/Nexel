@@ -1,9 +1,9 @@
-import React from 'react'
+import "@/components/css/LoadingCss.css";
 
-export default function loading() {
+export default function Loading() {
   return (
-    <div>
-      loading ...
+    <div className="flex min-h-[60vh] items-center justify-center">
+      <span className="nexel-loader" />
     </div>
-  )
+  );
 }

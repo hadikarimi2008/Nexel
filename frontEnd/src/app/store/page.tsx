@@ -9,6 +9,8 @@ export const metadata: Metadata = {
 };
 
 export default async function Store() {
+  // await new Promise((resolve) => setTimeout(resolve, 5000));
+
   const data: ProductsType[] = await fetch(
     "http://localhost:5000/api/products",
   ).then((res) => res.json());

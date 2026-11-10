@@ -5,6 +5,7 @@ import "../css/globals.css";
 import FooterComponent from "@/components/FooterComponent";
 import UpComponents from "@/components/UpComponents";
 import { CartProvider } from "@/context/CartContext";
+import CookieToast from "@/components/CookieToast";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -26,6 +27,7 @@ export default function RootLayout({
             {children} <UpComponents />
           </ContainerComponent>
           <FooterComponent />
+          <CookieToast />
         </CartProvider>
       </body>
     </html>

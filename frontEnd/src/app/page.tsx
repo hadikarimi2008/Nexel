@@ -38,7 +38,7 @@ export default function Home() {
           AcerLogo,
         ]}
       />
-      <VideoComponent src="/video/HomePageVideo.mp4" />
+      <VideoComponent src="/video/intro.mp4" />
       <LocationSection />
     </>
   );
