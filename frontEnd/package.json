@@ -13,6 +13,7 @@
     "next": "16.4.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "react-share": "^6.1.0",
     "styled-components": "^6.6.0"
   },
   "devDependencies": {

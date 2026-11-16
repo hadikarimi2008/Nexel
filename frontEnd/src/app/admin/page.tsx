@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { isAdmin, logout } from "@/lib/auth/auth";
 import { Usertype } from "@/types/UsersType";
-import { ProductsType } from "@/types/ProductsType";
+import { ProductsType } from "../../../ProductsType";
 import Link from "next/link";
 
 const buttonClass =

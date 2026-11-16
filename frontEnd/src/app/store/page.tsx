@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import ProductsFilter from "@/components/ProductsFilter";
 
-import { ProductsType } from "@/types/ProductsType";
+import { ProductsType } from "../../../ProductsType";
 
 export const metadata: Metadata = {
   title: "Nexel || Store Page",

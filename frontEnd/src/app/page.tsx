@@ -3,6 +3,8 @@ import IntroComponent from "@/components/HomePage/IntroComponent";
 import LocationSection from "@/components/HomePage/LocationSection";
 import RandomProducts from "@/components/HomePage/RandomProducts";
 import MarqueeComponent from "@/components/HomePage/MarqueeComponent";
+import RandomBlogsComponent from "@/components/HomePage/RandomBlogsComponent ";
+
 import { Metadata } from "next";
 
 import MicrosoftLogo from "../../public/images/Marquee/Microsoft-Logo.wine.svg";
@@ -14,6 +16,8 @@ import LenovoLogo from "../../public/images/Marquee/Lenovo_Vibe_K4_Note-Logo.win
 import SamsungLogo from "../../public/images/Marquee/Samsung-Logo.wine.svg";
 import AcerLogo from "../../public/images/Marquee/Acer_Inc.-Logo.wine.svg";
 import VideoComponent from "@/components/HomePage/VideoComponent";
+import ReviewsMarqueeComponent from "@/components/HomePage/ReviewsMarqueeComponent";
+import { reviews } from "@/components/lib/Reviews";
 
 export const metadata: Metadata = {
   title: "Nexel || Home Page",
@@ -39,6 +43,8 @@ export default function Home() {
         ]}
       />
       <VideoComponent src="/video/intro.mp4" />
+      <RandomBlogsComponent />
+      <ReviewsMarqueeComponent reviews={reviews} speed={60} />
       <LocationSection />
     </>
   );

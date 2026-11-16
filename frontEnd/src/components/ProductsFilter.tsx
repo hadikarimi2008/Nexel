@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import CardComponents from "@/components/CardComponents";
-import { ProductsType } from "@/types/ProductsType";
+import { ProductsType } from "../../ProductsType";
 
 type Product = ProductsType & {
   brand?: string | null;

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ImageOff, ArrowLeft } from "lucide-react";
-import { ProductsType } from "@/types/ProductsType";
+import { ProductsType } from "../../../../ProductsType";
 
 async function getProduct(slug: string): Promise<ProductsType | null> {
   try {

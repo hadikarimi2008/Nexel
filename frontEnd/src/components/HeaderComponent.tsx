@@ -12,6 +12,7 @@ const navItems = [
   { title: "Home", href: "/" },
   { title: "Store", href: "/store" },
   { title: "About", href: "/about" },
+  { title: "Blog", href: "/blog" },
 ];
 
 export default function HeaderComponent() {
